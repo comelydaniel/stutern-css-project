@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(247, 184, 247);
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.brand {
+    font-size: 26px;
+    font-weight: 700;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    list-style: none;
+    padding: 0px 10px;
+}
+
+#intro-section {
+    display: flex;
+    justify-content: center;
+    margin-right: 10px;
+}
+
+.img {
+    background: url(../img/me.jpeg) center/cover no-repeat;
+    width: 25%;
+    min-height: 40vh;
+    border-radius: 50%;
+    border: 5px solid #fff;
+}
+
+.intro-para {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    padding-left: 10px;
+}
+
+.intro-para p {
+    width: 50%;
+}
+
+#about {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 10px;
+}
+
+#skillset{
+    width: 20%;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.skills    {
+    display: flex;
+    margin-left: 30px;
+}
+
+.skill {
+    background: #fff;
+    padding: 10px;
+    margin: 15px;
+    font: 24px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer a {
+    padding: 0 10px;
+    font-size: 20px;
+}
